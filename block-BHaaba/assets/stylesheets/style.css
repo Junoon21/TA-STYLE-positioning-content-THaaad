@@ -47,24 +47,25 @@ table {
 	border-spacing: 0;
 }
 /* custom styles*/
+* {
+    box-sizing: border-box;
+}
 
 header {
     background-color:rgb(48, 178, 238);
     text-align: center;
-    padding: 7px;
+    padding: 24px;
     text-transform: capitalize;
 }
-h2 {
-    font-size: 28px;
-    color:rgb(233, 48, 94);
-    text-transform: uppercase;
+.logo {
+    width: 90px;
+    height: 70px;
     text-align: left;
-    margin-top: 10px;
-    margin-right: 10px;
-  
+    float: left;
+    padding-left: 12px;
 }
 
-a {
+a { 
     font-size: 24px;
     color: white;
     margin:12px;
@@ -72,13 +73,13 @@ a {
     text-decoration: none;
 }
 section {
-    padding: 21px;
+    padding: 31px;
 }
 
 article {
     color: white;
     background-color: rgb(167, 233, 130);
-    width: 26.333%;
+    width: 30.333%;
     height: auto;
     padding: 24px;
     margin: 1.5%;
@@ -88,9 +89,8 @@ article {
 }
 img {
     height: 250px;
-    width: 300px;
-    padding-left: 0;
-    margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
 }
 p {
     font-size: 21px;
@@ -100,11 +100,11 @@ p {
 }
 footer {
     background-color:rgb(48, 178, 238) ;
-    padding: 12px;
+    padding: 24px;
 }
 nav {
     padding: 26px;
-    text-align: right;
+    float: right;
 
 }
 .clearfix::before , .clearfix::after {
