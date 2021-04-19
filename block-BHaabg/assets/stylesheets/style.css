@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom styles*/
+header {
+    background-color: cadetblue;
+    padding: 20px;
+    position: fixed;
+   left: 0px;
+   right: 0px;
+}
+header img {
+    width: 120px;
+    height: 80px;
+    position: relative;
+    top: 16px;
+    left: 44px;
+}
+nav {
+  
+    text-align: right;
+    position: relative;
+    right: 40px;
+    bottom: 40px;
+
+}
+a {
+    color: white;
+    font-size: 24px;
+    margin-left: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*section one*/
+.sideleft {
+    background-color: rgb(224, 230, 190);
+    position: relative;
+    top: 70px;
+    height: 250px;
+    width: 40%;
+    margin-top: 10% ;
+    margin-right: 8%;
+   margin-left: 8%;
+
+  
+   
+}
+.sideright {
+    background-color: darkblue;
+    height: 250px;
+   position: relative;
+   bottom: 194px;
+   left: 45%;
+   margin-top: 4px ;
+    margin-right: 8%;
+   margin-left: 8%;
+   width: 40%;
+  
+}
+.container {
+    width: 860px;
+    background-color: rgb(165, 228, 236);
+    margin: 0 auto;
+    padding:24px;
+    position: static;
+}
+h3 {
+    color: darkblue;
+    font-size: 24px;
+    padding: 14px 2px;
+    text-transform: uppercase;
+}
+p {
+    font-size: 14px;
+    color: rgb(34, 25, 25);
+    line-height: 1.5;
+    padding: 2px;
+} 
+.puppy {
+width: 100%;
+height: 100%;
+}
+.col1 {
+    width: 30%;
+    height: 130px;
+    position: relative;
+    top: 90px;
+    left: 22px;
+}
+    
+.col2 {
+    width: 30%;
+    height: 115px;
+    position: relative;
+    bottom: 84px;
+    left: 315px;
+}
+.col3 {
+    width: 30%;
+    height: 130px;
+    position: relative;
+    bottom: 180px;
+    left: 540px;
+
+}
+.gallery {
+    width: 850px;
+    background-color: rgb(221, 129, 193);
+    position: relative;
+    bottom: 140px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+.row {
+    width: 780px;
+    
+    background-color: rgb(166, 236, 138);
+    position: static;
+    top: 70px;
+   left: 10px;
+   margin-bottom: 40px;  
+}
+.sidebutton {
+    position: fixed;
+    z-index: 1;
+    top: 450px;
+    left: 1170px;
+
+}
+.button {
+   position: fixed;
+   background-color: rgb(77, 231, 77);
+   bottom: 120px;
+   right: 30px;
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   padding: 22px;
+   font-size: 20px;
+   font: 400;
+}
+.parent {
+    padding: 64px 32px;
+}
+/*footer*/
+footer {
+    background-color: cadetblue;
+    padding: 44px; 
+    position: static;
+    top: 380px;
+}
+.footer {
+  position: static;
+    top: 340px;
+}

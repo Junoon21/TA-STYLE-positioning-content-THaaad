@@ -1,0 +1,103 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>assignment 2 positioning content</title>
+        <link rel="stylesheet" href="assets/stylesheets/style.css">
+    </head>
+    <body>
+    <header >
+        <div>
+            <img src="assets/media/logo.png" alt="brand logo">
+        </div>
+        <nav>
+            <a href="#">blog</a>
+            <a href="#">blog</a>
+            <a href="#">blog</a>
+        </nav>
+    </header>
+    <main id="top" >
+        <div class="sidebutton">
+            <a   href="#top"><button class="button">Take me to the Top</button></a>
+        </div>
+        <section class="parent">
+            <section class="container">
+                <article>
+                   <div class="sideleft">
+                   
+                        <h3>this is the heading</h3>
+                        <p>Lorem ipsum, i ratioias eius, minima dicta fuga voluptatum eligendi non corporis nam est, doloribus sint porro veritatis iste maxime officiis blanditiis quo.</p>
+                    
+                         <a href="#"><button> read more</button></a>
+                   </div>
+                   <div class="sideright">
+                       <img  class="puppy"  src="assets/media/image1.jpg" alt="puppy">
+                   </div>
+                </article>
+                <section class="gallery">
+                    <section class="row">
+                        <div class="col1">
+                            <img src="assets/media/image2.jpg" alt="img1">
+                        
+                        </div>
+                        <div class="col2">
+                            <img src="assets/media/cutecat.jpg" alt="cutecat">
+                        </div>
+                        <div class="col3">
+                           
+                            <img src="assets/media/image3.jpg" alt="img1">
+                        </div>
+        
+                    </section>
+                    <section class="row">
+                        <div class="col1">
+                            <img src="assets/media/image2.jpg" alt="img1">
+                        
+                        </div>
+                        <div class="col2">
+                            <img src="assets/media/cutecat.jpg" alt="cutecat">
+                        </div>
+                        <div class="col3">
+                           
+                            <img src="assets/media/image3.jpg" alt="img1">
+                        </div>
+        
+                    </section>
+                   
+                </section>
+                
+    
+            </section>
+        </section>
+        
+        
+        <footer>
+            <nav class="footer">
+                <a href="#">instagram</a>
+                <a href="#">facebook</a>
+                <a href="#">linkedin</a>
+                <a href="#">twitter</a>
+            </nav>
+        </footer>
+
+        
+    </main>
+    </body>
+    
+</html>
