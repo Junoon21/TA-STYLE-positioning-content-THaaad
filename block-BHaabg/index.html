@@ -20,84 +20,80 @@
         <meta charset="UTF-8">
         <title>assignment 2 positioning content</title>
         <link rel="stylesheet" href="assets/stylesheets/style.css">
+        <script src="https://kit.fontawesome.com/2bef200a9d.js" crossorigin="anonymous"></script>
     </head>
     <body>
-    <header >
-        <div>
-            <img src="assets/media/logo.png" alt="brand logo">
-        </div>
-        <nav>
-            <a href="#">blog</a>
-            <a href="#">blog</a>
-            <a href="#">blog</a>
-        </nav>
-    </header>
-    <main id="top" >
-        <div class="sidebutton">
-            <a   href="#top"><button class="button">Take me to the Top</button></a>
-        </div>
-        <section class="parent">
-            <section class="container">
-                <article>
-                   <div class="sideleft">
-                   
-                        <h3>this is the heading</h3>
-                        <p>Lorem ipsum, i ratioias eius, minima dicta fuga voluptatum eligendi non corporis nam est, doloribus sint porro veritatis iste maxime officiis blanditiis quo.</p>
-                    
-                         <a href="#"><button> read more</button></a>
-                   </div>
-                   <div class="sideright">
-                       <img  class="puppy"  src="assets/media/image1.jpg" alt="puppy">
-                   </div>
-                </article>
-                <section class="gallery">
-                    <section class="row">
-                        <div class="col1">
-                            <img src="assets/media/image2.jpg" alt="img1">
+         <header class="header">
+             <div class="container clearfix">
+                <a class="logo">
+                    <img src="assets/media/logo.png" alt="brand logo">
+                </a>
+                <nav class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">about</a>
+                    <a href="#">gallery</a>
+                </nav>
+             </div>
+             </header>
+             <main id="top">
+                 <article class="article">
+                     <div class="container clearfix">
+                         <div class="col">
+                             <h1 class="article-heading">This is heading for the article</h1>
+                             <p class="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi omnis earum enim excepturi sit error reprehenderit atque facere, quaerat repellat cum, ratione fugiat nostrum! Libero neque eius deserunt quibusdamLorem ipsum dolor sit amet consectetur, adipisicing elit. Velit dicta consectetur, reprehenderit veritatis dolorum est quo laborum aliquam nulla fuga rem sequi enim iusto commodi, quam exercitationem quas at. ConsecteturLorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae consequatur aspernatur repellat earum perferendis, dignissimos laborum recusandae enim ut, ducimus qui maxime. Temporibus harum esse deleniti eius architecto aspernatur? Velit.</p>
+                         </div>
+                         <div class="col">
+                             <img class="blog-image" src="assets/media/image2.jpg" alt="blog image">
+                         </div>
+                     </div>
+                 </article>
+                 <section class="gallery">
+                     <div class="container clearfix">
+                         <div class="col-1-3">
+                            <img class="gallery-img" src="assets/media/image1.jpg" alt="image1"> 
+                        </div>
+                        <div class="col-1-3">
+                            <img class="gallery-img" src="assets/media/image1.jpg" alt="image1"> 
+                        </div>
+                        <div class="col-1-3">
+                            <img class="gallery-img" src="assets/media/image1.jpg" alt="image1"> 
+                        </div>
                         
+                        <div class="col-1-3">
+                        <img class="gallery-img" src="assets/media/image1.jpg" alt="image1">
+                        </div  >
+                        <div class="col-1-3">
+                        <img class="gallery-img" src="assets/media/image1.jpg" alt="image1">
+                                  
                         </div>
-                        <div class="col2">
-                            <img src="assets/media/cutecat.jpg" alt="cutecat">
-                        </div>
-                        <div class="col3">
-                           
-                            <img src="assets/media/image3.jpg" alt="img1">
-                        </div>
-        
-                    </section>
-                    <section class="row">
-                        <div class="col1">
-                            <img src="assets/media/image2.jpg" alt="img1">
-                        
-                        </div>
-                        <div class="col2">
-                            <img src="assets/media/cutecat.jpg" alt="cutecat">
-                        </div>
-                        <div class="col3">
-                           
-                            <img src="assets/media/image3.jpg" alt="img1">
-                        </div>
-        
-                    </section>
-                   
-                </section>
-                
-    
-            </section>
-        </section>
-        
-        
-        <footer>
-            <nav class="footer">
-                <a href="#">instagram</a>
-                <a href="#">facebook</a>
-                <a href="#">linkedin</a>
-                <a href="#">twitter</a>
-            </nav>
-        </footer>
+                        <div class="col-1-3">
+                         <img class="gallery-img" src="assets/media/image1.jpg" alt="image1">
+                         </div>
+                     </div>
+                 </section>
+                 <footer class="footer">
+                     <div class="container">
+                        <nav>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i> 
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </nav>
+                     </div>
+                     
+                 </footer>
+                 <a class="top" href="#top">
+                     <i class="fas fa-arrow-up"></i>
+                </a>
+             </main>
+             
 
         
-    </main>
     </body>
     
 </html>
