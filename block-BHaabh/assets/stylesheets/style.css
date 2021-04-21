@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom styles*/
+.container {
+    max-width: 1200px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+.header {
+    background-color: rgb(84, 84, 218);
+}
+.brand a {
+    font-size: 16px;
+    color: cornsilk;
+    text-decoration: none;
+    float: left;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+}
+.nav a {
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: cornsilk;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 24px;
+}
+.part1 {
+    height: 72px;
+    line-height: 72px; 
+    padding: 36px;
+}
+.heading1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    text-decoration: none;
+    color: cornsilk;
+    text-align: center;
+    padding: 24px;
+}
+.heading2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+    color: cornsilk;
+    text-align: center;
+    padding-bottom: 132px;
+}
+/*column */
+.col {
+    width: 30%;
+    float: left;
+    margin: 1.666%;
+}
+.col h3 {
+        font-size: 34px;
+        color:rgb(84, 84, 218);
+        padding-top: 62px;
+        padding-bottom: 36px;
+}
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: gray;
+    line-height: 1.2;
+}
+.button {
+    background-color:rgb(84, 84, 218);
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 62px;
+}
+.button a {font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: cornsilk;
+    padding: 12px;
+}
+/*gallery*/
+.morespace {
+    padding-top: 72px;
+}
+.lessspace {
+padding-bottom: 42px;
+}
+.gallery {
+    background-color:rgb(84, 84, 218) ;
+}
+.box{
+    width: 22.5%;
+    border: 1px solid honeydew;
+    float: left;
+    margin: 1.11%;
+}
+.col2 { 
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 62px;
+   
+}
+.heading4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: cornsilk;
+    text-align: center;
+}
+.heading5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: cornsilk;
+    text-align: center;
+    padding:24px 0;
+}
+.endspace {
+    padding-bottom: 78px;
+}
+/*section 3*/
+.blue {
+    color:rgb(84, 84, 218) ;
+    padding-top: 32px;
+}
+.gray {
+    color: rgb(109, 107, 107);
+    padding-bottom: 32px;
+}
+.col4 {
+    width: 42%; 
+    float: left;
+    margin: 0 22px;
+    
+}
+.section3 {
+    padding: 24px 0;
+    text-align: left;
+}
+/*footer*/
+.line {
+     width: 2px dotted darkgray;
+}
+.info {
+font-family: 'Open Sans', sans-serif;
+color: darkgray;
+vertical-align: middle;
+float: left;
+}
+.icons {
+    float: right;
+}
+.icons a {
+    color:rgb(84, 84, 218) ;
+    text-decoration: none;
+    margin-right: 30px; 
+}
+.sameline {
+    height: 32px;
+    line-height: 32px;
+    padding: 12px;
+}
+/*clearfix*/
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+
+}
+.clearfix::after {
+    clear: both;
+}
